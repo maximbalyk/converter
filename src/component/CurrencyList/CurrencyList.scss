@@ -1,0 +1,32 @@
+.list {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 1050px;
+  align-items: center;
+  flex-wrap: wrap;
+  max-height: 500px;
+  background-color: #335;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: flex-end;
+  width: 120px;
+  padding: 3px;
+}
+
+.selector {
+  background-color: #335;
+  border-radius: 15px;
+  width: 130px;
+  margin: 20px auto;
+}
+
+.content-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
